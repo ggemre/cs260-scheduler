@@ -141,6 +141,10 @@ function App() {
           </Item>
         )}
       </Stack>
+      
+      <Paper sx={{ position: "fixed", bottom: 16, left: 16, fontWeight: "light", padding: 0.5 }}>
+        <a href="https://github.com/ggemre/cs260-scheduler">GitHub Repo</a>
+      </Paper>
     </div>
   );
 }
